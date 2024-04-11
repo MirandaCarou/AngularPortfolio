@@ -105,7 +105,7 @@
   font-size: 30px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (min-device-width : 320px) and (max-device-width : 480px) {
 
   .enter-page-title h2 {
     color: #fff;
