@@ -6,14 +6,14 @@ export const COURSES: any = [
         description: "Education and Courses",
         iconUrl: './assets/brainstorm_1787077.png',
         longDescription: "My Bacherol Degree and courses",
-        url: "/education-page",
+        url: '/education-page',
     },
     {
         id: 2,
         description: "Experience",
         iconUrl: './assets/coding_3242257.png',
         longDescription: "All my roles and job positions",
-        url: "/experience-page",
+        url: '/experience-page',
     },
 
     {
@@ -21,14 +21,14 @@ export const COURSES: any = [
         description: 'Projects',
         longDescription: "Let's take a look !!",
         iconUrl: './assets/folder_3767084.png',
-        url: "/projects-page",
+        url: '/projects-page',
     },
     {
       id: 4,
       description: "About Me",
       iconUrl: './assets/flower_346218.png',
       longDescription: "Do you want to know me more?",
-      url: "/about-me-page",
+      url: '/about-me-page',
   },
 
   {
@@ -36,7 +36,7 @@ export const COURSES: any = [
       description: 'Contact me',
       longDescription: "It's only one click :)",
       iconUrl: './assets/integrity_10162741.png',
-      url: "/contact-me",
+      url: '/contact-me',
   },
 
 
