@@ -1,0 +1,104 @@
+
+.enter-page-body{
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.enter-page-title{
+  position: relative;
+  height: 50%;
+}
+.enter-page-title h2 {
+  color: #fff;
+  font-size: 150px;
+  left: 50%;
+  top: 100%;
+  position: absolute;
+  transform: translate(-50%, -150%);
+
+}
+
+.enter-page-title h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.enter-page-title h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+.enter-page-substitle{
+  height: 49%;
+  position: relative;
+}
+
+.enter-page-substitle span{
+  left: 50%;
+  top: 2%;
+  position: absolute;
+  transform: translate(-50%, -0%);
+}
+.enter-page-substitle a{
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  font-style: none;
+  font-weight: 100;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  color: #03a9f4;
+}
+
+.enter-page-substitle a:hover{
+  color: #fff;
+  font-size: 35px;
+  font-style: italic;
+}
+
+
+.enter-page-substitle span{
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 100;
+  font-style: normal;
+  color: #fff;
+  font-size: 30px;
+}
+

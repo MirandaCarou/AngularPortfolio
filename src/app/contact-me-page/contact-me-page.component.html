@@ -1,0 +1,31 @@
+
+<nav-bar></nav-bar>
+<div class="contact-me-body">
+  <div class="contact-me-box">
+    <span class="title">Contact me</span>
+    <span class="subtitle">Drop me a email through the form and I'll get back to you</span>
+    <form class="contact-me-form" action="https://formsubmit.co/f6e579a66be85b8e86afbae25e36f59e" method="POST">
+
+        <label for="email">Email:</label>
+        <input required class="email input" type="email" name="email" (input)="email = $event.target.value">
+        <div class="error-box">
+          <span class="error email-error">Introduce a correct format email</span>
+        <span class="error email-error-required">Required input</span>
+        </div>
+        <label  for="subject">Subject:</label>
+        <input required class="subject input" type="text" name="_subject" (input)="subject = $event.target.value">
+        <div class="error-box">
+          <span class="error subject-error">Alphanumeric characters only</span>
+        <span class="error subject-error-required">Required input</span>
+        </div>
+        <label for="message">Message:</label>
+        <textarea required class="message input" name="message" (input)="message = $event.target.value"></textarea>
+        <div class="error-box">
+          <span class="error message-error-required">Required input</span>
+        </div>
+        <input type="hidden" name="_captcha" value="false">
+      <button  type="submit">Send</button>
+    </form>
+  </div>
+
+</div>

@@ -1,0 +1,30 @@
+<div class="nav-bar-body">
+  <div class="menu">
+    <a (click)="toggleMenu()" class="menu-trigger"><img s class="iconmenu" src="../../assets/menu.png" alt=""></a>
+    <ul class="dropdown">
+      <a (click)="enterPage('/welcome-page', false)">Home</a>
+      <a (click)="enterPage('/education-page', false)">Education/Curses</a>
+      <a (click)="enterPage('/projects-page', false)">Projects</a>
+      <a (click)="enterPage('/experience-page', false)">Experience</a>
+      <a (click)="enterPage('/contact-me', false)">Contact</a>
+      <a (click)="enterPage('/about-me-page', false)">About Me</a>
+      <a (click)="enterPage('https://www.linkedin.com/in/mcarou/?locale=en_US', true)">Linkedin</a>
+      <a (click)="enterPage('https://github.com/MirandaCarou', true)">GitHub</a>
+      <a (click)="enterPage('https://www.hackerrank.com/profile/mclainho19', true)">HackRank</a>
+    </ul>
+  </div>
+    <div class="nav-bar-lenguages not-mobile">
+      <img class="icon" src="../../assets/github.png" alt="" (click)="enterPage('https://www.linkedin.com/in/mcarou/?locale=en_US', true)">
+      <img class="icon" src="../../assets/siiGithub.png" alt="" (click)="enterPage('https://github.com/MirandaCarou', true)">
+      <img class="icon" src="../../assets/hackRank.png" alt="" (click)="enterPage('https://www.hackerrank.com/profile/mclainho19', true)">
+    </div>
+    <div class="nav-bar-links not-mobile">
+      <a (click)="enterPage('/welcome-page', false)">Home</a>
+      <a (click)="enterPage('/education-page', false)">Education/Curses</a>
+      <a (click)="enterPage('/projects-page', false)">Projects</a>
+      <a (click)="enterPage('/experience-page', false)">Experience</a>
+      <a (click)="enterPage('/contact-me', false)">Contact</a>
+      <a (click)="enterPage('/about-me-page', false)">About Me</a>
+    </div>
+
+</div>

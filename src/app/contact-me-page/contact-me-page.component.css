@@ -1,0 +1,66 @@
+.contact-me-body{
+  color: aliceblue;
+  display: inline-flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-me-box{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me-box .title{
+  font-size: 40px;
+
+}
+.contact-me-box .subtitle{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+ .contact-me-box .contact-me-form{
+  width: 90%;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+.contact-me-box .form{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.contact-me-box .form .input{
+    width: 400px;
+    border-radius: 4px;
+}
+.error-box{
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: center;
+}
+.error{
+  display: none;
+  color: red;
+  font-size: 12px;
+}
+
+.error-input{
+  border-color: red;
+  border-style: solid;
+}

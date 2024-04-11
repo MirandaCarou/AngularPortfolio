@@ -1,0 +1,23 @@
+
+<div class="course-card" *ngIf="course" #container (click)="enterPage(course.url, true)">
+
+    <div class="course-title">
+        {{ cardIndex || '' + ' ' + course.description }}
+    </div>
+
+    <div *ngIf="!course.isImage"class="course-image" >
+      <img  src="{{course.iconUrl}}" alt="">
+    </div>
+    <div *ngIf="course.isImage" class="is-image">
+      <img   src="{{course.iconUrl}}" alt="">
+    </div>
+
+    <span >{{course.longDescription}}</span>
+
+</div>
+
+
+
+
+
+

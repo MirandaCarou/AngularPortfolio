@@ -1,0 +1,14 @@
+
+<nav-bar></nav-bar>
+
+<div class="home-page-body">
+  <div class="home-page-title">
+    <span class="title">My Projects</span>
+    <span class="subtitle">Please take a look. It's free !!</span>
+  </div>
+  <div class="courses">
+
+    <course-card class="course" *ngFor="let course of courses"
+                 [course]="course">
+  </course-card>
+</div>
