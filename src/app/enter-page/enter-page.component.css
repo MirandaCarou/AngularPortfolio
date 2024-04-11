@@ -1,10 +1,14 @@
 
 .enter-page-body{
-  height: -webkit-fill-available;
-  width: -webkit-fill-available;
-  display: block;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
   position: relative;
   text-align: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .enter-page-title{
@@ -18,7 +22,6 @@
   top: 100%;
   position: absolute;
   transform: translate(-50%, -150%);
-
 }
 
 .enter-page-title h2:nth-child(1) {
@@ -102,3 +105,37 @@
   font-size: 30px;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .enter-page-title h2 {
+    color: #fff;
+    font-size: 200px;
+    left: 50%;
+    top: 100%;
+    position: absolute;
+    transform: translate(-50%, -150%);
+  }
+
+  .enter-page-substitle span{
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    font-style: normal;
+    color: #fff;
+    font-size: 80px;
+  }
+
+  .enter-page-substitle a{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    font-style: none;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    color: #03a9f4;
+    width: 100%;
+  }
+}
