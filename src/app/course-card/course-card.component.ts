@@ -34,7 +34,7 @@ export class CourseCardComponent{
 
     }
 
-    enterPage(url, isExternal){
+    enterPage(url: string, isExternal: boolean){
       console.log('Clicando en Projects');
       if(isExternal){
         window.location.href = url;

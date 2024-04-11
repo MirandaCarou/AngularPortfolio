@@ -1,34 +1,277 @@
-.home-page-body{
-  width: -webkit-fill-available;
-  display: inline-flex;
-  flex-direction: column;
-}
-.courses{
-  display: inline-flex;
-  align-content: center;
-  flex-wrap: wrap;
-  justify-content: center;
+
+
+
+
+@media (min-width: 1281px) {
+
+  .home-page-body{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .course{
+    margin-right: 5%;
+  }
+
+  .home-page-title{
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .courses{
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .home-page-title .title{
+    color:  #03a9f4;
+    font-size: 50px;
+  }
+  .home-page-title .subtitle{
+    color:  aliceblue;
+    font-size: 25px;
+  }
 }
 
-.course{
-  margin-right: 5%;
+/*
+  ##Dispositivo = Laptops, Desktops
+  ##Resolucion = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .home-page-body{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .courses{
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .course{
+    margin-right: 5%;
+  }
+
+  .home-page-title{
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .home-page-title .title{
+    color:  #03a9f4;
+    font-size: 50px;
+  }
+  .home-page-title .subtitle{
+    color:  aliceblue;
+    font-size: 25px;
+  }
+
 }
 
-.home-page-title{
-  height: 200px;
-  display: inline-flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+/*
+  ##Dispositivo = Tablets, Ipads (vertical)
+  ##Resolucion = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-page-body{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .courses{
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .course{
+    margin-right: 5%;
+  }
+
+  .home-page-title{
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .home-page-title .title{
+    color:  #03a9f4;
+    font-size: 50px;
+  }
+  .home-page-title .subtitle{
+    color:  aliceblue;
+    font-size: 25px;
+  }
 }
 
-.home-page-title .title{
-  color:  #03a9f4;
-  font-size: 50px;
+/*
+  ##Dispositivo = Tablets, Ipads (horizontal)
+  ##Resolucion = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: horizontal) {
+
+  .home-page-body{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .courses{
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .course{
+    margin-right: 5%;
+  }
+
+  .home-page-title{
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .home-page-title .title{
+    color:  #03a9f4;
+    font-size: 50px;
+  }
+  .home-page-title .subtitle{
+    color:  aliceblue;
+    font-size: 25px;
+  }
 }
-.home-page-title .subtitle{
-  color:  aliceblue;
-  font-size: 25px;
+
+/*
+  ##Dispositivo = Tablets de baja resolucion y telefnos Mobiles (horizontal)
+  ##Resolucion = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .home-page-body{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .courses{
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .course{
+    margin-right: 5%;
+  }
+
+  .home-page-title{
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .home-page-title .title{
+    color:  #03a9f4;
+    font-size: 30px;
+  }
+  .home-page-title .subtitle{
+    color:  aliceblue;
+    font-size: 15px;
+  }
 }
+
+/*
+  ##Dispositivo = Mayoria de telefonos moviles (vertical)
+  ##Resolucion = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .home-page-body{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .courses{
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .course{
+    margin-right: 5%;
+  }
+
+  .home-page-title{
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .home-page-title .title{
+    color:  #03a9f4;
+    font-size: 30px;
+  }
+  .home-page-title .subtitle{
+    color:  aliceblue;
+    font-size: 15px;
+  }
+
+}
+

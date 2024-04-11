@@ -13,11 +13,11 @@
 
 .enter-page-title{
   position: relative;
-  height: 40%;
+  height: 50%;
 }
 .enter-page-title h2 {
   color: #fff;
-  font-size: 150px;
+  font-size: 200px;
   left: 50%;
   top: 100%;
   position: absolute;
@@ -68,6 +68,7 @@
 .enter-page-substitle{
   height: 49%;
   position: relative;
+  width: 100%;
 }
 
 .enter-page-substitle span{
@@ -84,9 +85,10 @@
   font-weight: 100;
   font-style: normal;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
   transform: translate(-50%, -50%);
   color: #03a9f4;
+  width: 100%;
 }
 
 .enter-page-substitle a:hover{
@@ -105,11 +107,11 @@
   font-size: 30px;
 }
 
-@media (min-width : 320px) and (max-width : 480px) {
+@media (max-width : 750px) {
 
   .enter-page-title h2 {
     color: #fff;
-    font-size: 200px;
+    font-size: 100px;
     left: 50%;
     top: 100%;
     position: absolute;
@@ -122,20 +124,24 @@
     font-weight: 200;
     font-style: normal;
     color: #fff;
-    font-size: 80px;
+    font-size: 30px;
   }
 
   .enter-page-substitle a{
     left: 50%;
     top: 50%;
+
     position: absolute;
     font-style: none;
     font-weight: 200;
     font-style: normal;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
     transform: translate(-50%, -50%);
     color: #03a9f4;
+    width: 100%;
+  }
+  .enter-page-substitle{
     width: 100%;
   }
 }
