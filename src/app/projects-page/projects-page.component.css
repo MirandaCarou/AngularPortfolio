@@ -1,5 +1,5 @@
 .home-page-body{
-  width: -webkit-fill-available;
+  width: 100%;
   display: inline-flex;
   flex-direction: column;
   margin-top: 5%;
